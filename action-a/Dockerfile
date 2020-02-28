@@ -1,9 +1,9 @@
 FROM debian:9.5-slim
 
-LABAL "com.github.actions.name"="Hello World"
-LABAL "com.github.actions.description"="Write arguments to the std output"
-LABAL "com.github.actions.icon"="mic"
-LABAL "Com.github.actions.color"="purple"
+LABEL "com.github.actions.name"="Hello World"
+LABEL "com.github.actions.description"="Write arguments to the std output"
+LABEL "com.github.actions.icon"="mic"
+LABEL "Com.github.actions.color"="purple"
 
 LABEL "repository"="http://github.com/octocat/hello-world"
 LABEL "homepage"="http://github.com/actions"
